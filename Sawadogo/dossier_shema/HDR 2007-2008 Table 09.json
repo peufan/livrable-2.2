@@ -1,0 +1,721 @@
+{
+    "created": "2020-05-25",
+    "description": "donn\u00e9es sur les principales crises et risques sanitaires mondiaux receuilli par ONUSIDA,OMS et LA Banque Mondiale",
+    "fields": [
+        {
+            "description": "Reference to data source.",
+            "name": "reference",
+            "title": "Reference",
+            "type": "string"
+        },
+        {
+            "description": "Year of release.",
+            "name": "year",
+            "title": "Year",
+            "type": "year"
+        },
+        {
+            "constraints": {
+                "required": true
+            },
+            "description": "Official country names.",
+            "name": "country_name",
+            "structure": [
+                {
+                    "description": "Rename an existing field to conform to a schema name. Only valid where a single field is provided.",
+                    "name": "RENAME",
+                    "structure": [
+                        "field"
+                    ],
+                    "type": "action"
+                },
+                {
+                    "name": "Country",
+                    "type": "string"
+                }
+            ],
+            "title": "Country Name",
+            "type": "string"
+        },
+        {
+            "description": "Human Development Index Category derived from the HDI Rank.",
+            "name": "hdi_category",
+            "structure": [
+                {
+                    "description": "Rename an existing field to conform to a schema name. Only valid where a single field is provided.",
+                    "name": "RENAME",
+                    "structure": [
+                        "field"
+                    ],
+                    "type": "action"
+                },
+                {
+                    "name": "HDI category",
+                    "type": "string"
+                }
+            ],
+            "title": "HDI Category",
+            "type": "string"
+        },
+        {
+            "description": "Indicator described in the data series.",
+            "name": "indicator_name",
+            "structure": [
+                {
+                    "description": "Rename an existing field to conform to a schema name. Only valid where a single field is provided.",
+                    "name": "RENAME",
+                    "structure": [
+                        "field"
+                    ],
+                    "type": "action"
+                },
+                {
+                    "name": "Indicator Name",
+                    "type": "string"
+                }
+            ],
+            "title": "Indicator Name",
+            "type": "string"
+        },
+        {
+            "constraints": {
+                "required": true
+            },
+            "description": "Value for the Year and Indicator Name.",
+            "name": "values",
+            "structure": [
+                {
+                    "description": "Rename an existing field to conform to a schema name. Only valid where a single field is provided.",
+                    "name": "RENAME",
+                    "structure": [
+                        "field"
+                    ],
+                    "type": "action"
+                },
+                {
+                    "name": "Indicator Value",
+                    "type": "number"
+                }
+            ],
+            "title": "Values",
+            "type": "number"
+        }
+    ],
+    "input_data": [
+        {
+            "checksum": "5d5c1188b6c748e2eb462ce14a0a81637e87118cbfd6de671aa0d2acea31a7888b7ab9e4c0c4ea6cb00bdd585b4df923b9e4a468147f2ddac06c3977f71b8ccf",
+            "columns": [
+                {
+                    "name": "Unnamed: 0",
+                    "type": "string"
+                },
+                {
+                    "name": "Unnamed: 1",
+                    "type": "number"
+                },
+                {
+                    "name": "Unnamed: 2",
+                    "type": "number"
+                },
+                {
+                    "name": "\u2026 to lead a long and healthy life \u2026",
+                    "type": "number"
+                },
+                {
+                    "name": "Unnamed: 4",
+                    "type": "number"
+                },
+                {
+                    "name": "Unnamed: 5",
+                    "type": "number"
+                },
+                {
+                    "name": "Unnamed: 6",
+                    "type": "number"
+                },
+                {
+                    "name": "Unnamed: 7",
+                    "type": "number"
+                },
+                {
+                    "name": "Unnamed: 8",
+                    "type": "number"
+                },
+                {
+                    "name": "Unnamed: 9",
+                    "type": "number"
+                },
+                {
+                    "name": "Unnamed: 10",
+                    "type": "number"
+                },
+                {
+                    "name": "Unnamed: 11",
+                    "type": "number"
+                },
+                {
+                    "name": "Unnamed: 12",
+                    "type": "number"
+                },
+                {
+                    "name": "Unnamed: 13",
+                    "type": "number"
+                },
+                {
+                    "name": "Unnamed: 14",
+                    "type": "number"
+                },
+                {
+                    "name": "Unnamed: 15",
+                    "type": "number"
+                },
+                {
+                    "name": "Unnamed: 16",
+                    "type": "number"
+                },
+                {
+                    "name": "Unnamed: 17",
+                    "type": "number"
+                },
+                {
+                    "name": "Unnamed: 18",
+                    "type": "number"
+                },
+                {
+                    "name": "Unnamed: 19",
+                    "type": "number"
+                },
+                {
+                    "name": "Unnamed: 20",
+                    "type": "number"
+                },
+                {
+                    "name": "Unnamed: 21",
+                    "type": "number"
+                },
+                {
+                    "name": "Unnamed: 22",
+                    "type": "number"
+                },
+                {
+                    "name": "Unnamed: 23",
+                    "type": "number"
+                },
+                {
+                    "name": "Unnamed: 24",
+                    "type": "number"
+                },
+                {
+                    "name": "Unnamed: 25",
+                    "type": "number"
+                },
+                {
+                    "name": "Unnamed: 26",
+                    "type": "number"
+                },
+                {
+                    "name": "Unnamed: 27",
+                    "type": "number"
+                },
+                {
+                    "name": "Unnamed: 28",
+                    "type": "number"
+                },
+                {
+                    "name": "Unnamed: 29",
+                    "type": "number"
+                },
+                {
+                    "name": "Unnamed: 30",
+                    "type": "number"
+                }
+            ],
+            "dataframe": {
+                "Unnamed: 0": {
+                    "0": NaN,
+                    "1": "9 Leading global health crises and risks",
+                    "2": NaN
+                },
+                "Unnamed: 1": {
+                    "0": NaN,
+                    "1": NaN,
+                    "2": NaN
+                },
+                "Unnamed: 10": {
+                    "0": NaN,
+                    "1": NaN,
+                    "2": NaN
+                },
+                "Unnamed: 11": {
+                    "0": NaN,
+                    "1": NaN,
+                    "2": NaN
+                },
+                "Unnamed: 12": {
+                    "0": NaN,
+                    "1": NaN,
+                    "2": NaN
+                },
+                "Unnamed: 13": {
+                    "0": NaN,
+                    "1": NaN,
+                    "2": NaN
+                },
+                "Unnamed: 14": {
+                    "0": NaN,
+                    "1": NaN,
+                    "2": NaN
+                },
+                "Unnamed: 15": {
+                    "0": NaN,
+                    "1": NaN,
+                    "2": NaN
+                },
+                "Unnamed: 16": {
+                    "0": NaN,
+                    "1": NaN,
+                    "2": NaN
+                },
+                "Unnamed: 17": {
+                    "0": NaN,
+                    "1": NaN,
+                    "2": NaN
+                },
+                "Unnamed: 18": {
+                    "0": NaN,
+                    "1": NaN,
+                    "2": NaN
+                },
+                "Unnamed: 19": {
+                    "0": NaN,
+                    "1": NaN,
+                    "2": NaN
+                },
+                "Unnamed: 2": {
+                    "0": NaN,
+                    "1": NaN,
+                    "2": NaN
+                },
+                "Unnamed: 20": {
+                    "0": NaN,
+                    "1": NaN,
+                    "2": NaN
+                },
+                "Unnamed: 21": {
+                    "0": NaN,
+                    "1": NaN,
+                    "2": NaN
+                },
+                "Unnamed: 22": {
+                    "0": NaN,
+                    "1": NaN,
+                    "2": NaN
+                },
+                "Unnamed: 23": {
+                    "0": NaN,
+                    "1": NaN,
+                    "2": NaN
+                },
+                "Unnamed: 24": {
+                    "0": NaN,
+                    "1": NaN,
+                    "2": NaN
+                },
+                "Unnamed: 25": {
+                    "0": NaN,
+                    "1": NaN,
+                    "2": NaN
+                },
+                "Unnamed: 26": {
+                    "0": NaN,
+                    "1": NaN,
+                    "2": NaN
+                },
+                "Unnamed: 27": {
+                    "0": NaN,
+                    "1": NaN,
+                    "2": NaN
+                },
+                "Unnamed: 28": {
+                    "0": NaN,
+                    "1": NaN,
+                    "2": NaN
+                },
+                "Unnamed: 29": {
+                    "0": NaN,
+                    "1": NaN,
+                    "2": NaN
+                },
+                "Unnamed: 30": {
+                    "0": NaN,
+                    "1": NaN,
+                    "2": NaN
+                },
+                "Unnamed: 4": {
+                    "0": NaN,
+                    "1": NaN,
+                    "2": NaN
+                },
+                "Unnamed: 5": {
+                    "0": NaN,
+                    "1": NaN,
+                    "2": NaN
+                },
+                "Unnamed: 6": {
+                    "0": NaN,
+                    "1": NaN,
+                    "2": NaN
+                },
+                "Unnamed: 7": {
+                    "0": NaN,
+                    "1": NaN,
+                    "2": NaN
+                },
+                "Unnamed: 8": {
+                    "0": NaN,
+                    "1": NaN,
+                    "2": NaN
+                },
+                "Unnamed: 9": {
+                    "0": NaN,
+                    "1": NaN,
+                    "2": NaN
+                },
+                "\u2026 to lead a long and healthy life \u2026": {
+                    "0": NaN,
+                    "1": NaN,
+                    "2": NaN
+                }
+            },
+            "file": "d80a3477-a269-4d34-96d9-c9530c2f07d4.xlsx",
+            "id": "d80a3477-a269-4d34-96d9-c9530c2f07d4",
+            "morph": [
+                {
+                    "description": "Remove all blank columns and rows from a DataFrame.",
+                    "id": "bf1ce721-dd89-4901-9a4f-d76977feee3f",
+                    "name": "DEBLANK",
+                    "structure": [],
+                    "title": "De-blank",
+                    "type": "morph"
+                },
+                {
+                    "description": "Remove all duplicated rows from a DataFrame.",
+                    "id": "e5543911-f8ce-4295-b9f9-62cc2474a86d",
+                    "name": "DEDUPE",
+                    "structure": [],
+                    "title": "Deduplicate",
+                    "type": "morph"
+                },
+                {
+                    "description": "Rebase the header row at an indexed row and drop rows above that point.",
+                    "id": "9e2e19b2-cd1e-4912-918f-be332ac4fa93",
+                    "name": "REBASE",
+                    "parameters": {
+                        "rows": [
+                            7
+                        ]
+                    },
+                    "structure": [
+                        "rows"
+                    ],
+                    "title": "Rebase",
+                    "type": "morph"
+                },
+                {
+                    "description": "Delete rows provided in a list. They don't have to be contiguous.",
+                    "id": "4fa85b93-2f43-4c58-959f-e3f510188899",
+                    "name": "DELETE",
+                    "parameters": {
+                        "rows": [
+                            193,
+                            194,
+                            195,
+                            196,
+                            197,
+                            198
+                        ]
+                    },
+                    "structure": [
+                        "rows"
+                    ],
+                    "title": "Delete",
+                    "type": "morph"
+                },
+                {
+                    "description": "Rename header columns listed in a dict.",
+                    "id": "bfe4c326-c0a6-4a0e-95f3-414c6c126fbf",
+                    "name": "RENAME",
+                    "parameters": {
+                        "column_names": [
+                            "HDI rank",
+                            "Country",
+                            "HIV prevalencea (% aged 15-49) 2006",
+                            "Condom use at last high-risk sex Women 1999-2005",
+                            "Reference 1",
+                            "Condom use at last high-risk sex Men 1999-2005",
+                            "Reference 2",
+                            "Antimalarial measures Use of insecticide\u2014 treated (% of children under five) 1999-2005",
+                            "Reference 3",
+                            "Antimalarial measures Fevers treated with antimalarial drugs (% of children under five) 1999-2005",
+                            "Tuberculosis cases Prevalence (per 100,000 people) 2005 ",
+                            "Reference 4",
+                            "Tuberculosis cases Detected under DOTSd 2005",
+                            "Reference 5",
+                            "Tuberculosis cases Cured under DOTSe 2004",
+                            "Reference 6",
+                            "Prevalence of smoking Women 2002-04",
+                            "Reference 7",
+                            "Prevalence of smoking Men 2002-04",
+                            "Reference 8"
+                        ]
+                    },
+                    "structure": [
+                        "column_names"
+                    ],
+                    "title": "Rename",
+                    "type": "morph"
+                },
+                {
+                    "description": "Convert row-level categories into column categorisations.",
+                    "id": "014fd5ee-653a-4dd4-a497-416743a5ef82",
+                    "name": "CATEGORISE",
+                    "parameters": {
+                        "column_names": [
+                            "HDI category"
+                        ],
+                        "rows": [
+                            8,
+                            79,
+                            165
+                        ]
+                    },
+                    "structure": [
+                        "rows",
+                        "column_names"
+                    ],
+                    "title": "Categorise",
+                    "type": "morph"
+                },
+                {
+                    "description": "Transform a DataFrame from wide to long format.",
+                    "id": "a814c63b-8427-4434-9a93-dfb63cde24ed",
+                    "name": "MELT",
+                    "parameters": {
+                        "column_names": [
+                            "Indicator Name",
+                            "Indicator Value"
+                        ],
+                        "columns": [
+                            [
+                                "Reference 3",
+                                "Reference 7",
+                                "Reference 5",
+                                "Reference 1",
+                                "Reference 2",
+                                "Reference 4",
+                                "Country",
+                                "Reference 6",
+                                "HDI category",
+                                "Reference 8"
+                            ],
+                            [
+                                "HDI rank",
+                                "HIV prevalencea (% aged 15-49) 2006",
+                                "Condom use at last high-risk sex Women 1999-2005",
+                                "Condom use at last high-risk sex Men 1999-2005",
+                                "Antimalarial measures Use of insecticide\u2014 treated (% of children under five) 1999-2005",
+                                "Antimalarial measures Fevers treated with antimalarial drugs (% of children under five) 1999-2005",
+                                "Tuberculosis cases Prevalence (per 100,000 people) 2005 ",
+                                "Tuberculosis cases Detected under DOTSd 2005",
+                                "Tuberculosis cases Cured under DOTSe 2004",
+                                "Prevalence of smoking Women 2002-04",
+                                "Prevalence of smoking Men 2002-04"
+                            ]
+                        ]
+                    },
+                    "structure": [
+                        "columns",
+                        "column_names"
+                    ],
+                    "title": "Melt",
+                    "type": "morph"
+                },
+                {
+                    "description": "Transform a DataFrame from wide to long format.",
+                    "id": "cddb9051-1e07-4d06-9820-ffc501d23009",
+                    "name": "MELT",
+                    "parameters": {
+                        "column_names": [
+                            "Reference Name",
+                            "Reference"
+                        ],
+                        "columns": [
+                            [
+                                "HDI category",
+                                "Indicator Value",
+                                "Country",
+                                "Indicator Name"
+                            ],
+                            [
+                                "Reference 1",
+                                "Reference 2",
+                                "Reference 3",
+                                "Reference 4",
+                                "Reference 5",
+                                "Reference 6",
+                                "Reference 7",
+                                "Reference 8"
+                            ]
+                        ]
+                    },
+                    "structure": [
+                        "columns",
+                        "column_names"
+                    ],
+                    "title": "Melt",
+                    "type": "morph"
+                },
+                {
+                    "description": "Remove all blank columns and rows from a DataFrame.",
+                    "id": "b041061c-ff4d-4420-beb7-dff0ade3bbbe",
+                    "name": "DEBLANK",
+                    "structure": [],
+                    "title": "De-blank",
+                    "type": "morph"
+                }
+            ],
+            "original": "HDR 2007-2008 Table 09.xlsx"
+        }
+    ],
+    "name": "hdr_2007-2008_table_09_shema",
+    "output_data": {
+        "checksum": "a07750a215497749be175387df005c8a01877536b62e63f8f8e2c507b0c640e772043629fbe0de38dfcff3c52660f23be303e25aedd440ffe97ea368d2d014da",
+        "columns": [
+            {
+                "name": "reference",
+                "type": "number"
+            },
+            {
+                "name": "year",
+                "type": "number"
+            },
+            {
+                "name": "country_name",
+                "type": "string"
+            },
+            {
+                "name": "hdi_category",
+                "type": "string"
+            },
+            {
+                "name": "indicator_name",
+                "type": "string"
+            },
+            {
+                "name": "values",
+                "type": "number"
+            }
+        ],
+        "dataframe": {
+            "country_name": {
+                "0": "Iceland",
+                "1": "Norway",
+                "2": "Australia"
+            },
+            "hdi_category": {
+                "0": "HIGH HUMAN DEVELOPMENT",
+                "1": "HIGH HUMAN DEVELOPMENT",
+                "2": "HIGH HUMAN DEVELOPMENT"
+            },
+            "indicator_name": {
+                "0": "HDI rank",
+                "1": "HDI rank",
+                "2": "HDI rank"
+            },
+            "reference": {
+                "0": NaN,
+                "1": NaN,
+                "2": NaN
+            },
+            "values": {
+                "0": 1,
+                "1": 2,
+                "2": 3
+            },
+            "year": {
+                "0": NaN,
+                "1": NaN,
+                "2": NaN
+            }
+        },
+        "file": "output_95f68afd-df0a-4612-a1ee-c76643b2547c.csv",
+        "id": "output_95f68afd-df0a-4612-a1ee-c76643b2547c"
+    },
+    "process_date": "2020-05-25",
+    "status": "PROCESS_COMPLETE",
+    "title": "Shema de HDR 2007-2008 Table 09",
+    "updated": "2020-05-25",
+    "working_data": {
+        "checksum": "ae60dd8c3280b8c6658d75687cf2572e8f47812a163e59aad58c44061c1affecd2588a03ce0f45eafb896a6366ec61f3e9f17f29a14c3552b8659e83845e7acd",
+        "columns": [
+            {
+                "name": "HDI category",
+                "type": "string"
+            },
+            {
+                "name": "Indicator Value",
+                "type": "number"
+            },
+            {
+                "name": "Country",
+                "type": "string"
+            },
+            {
+                "name": "Indicator Name",
+                "type": "string"
+            },
+            {
+                "name": "Reference Name",
+                "type": "string"
+            },
+            {
+                "name": "Reference",
+                "type": "number"
+            }
+        ],
+        "dataframe": {
+            "Country": {
+                "0": "Iceland",
+                "1": "Norway",
+                "2": "Australia"
+            },
+            "HDI category": {
+                "0": "HIGH HUMAN DEVELOPMENT",
+                "1": "HIGH HUMAN DEVELOPMENT",
+                "2": "HIGH HUMAN DEVELOPMENT"
+            },
+            "Indicator Name": {
+                "0": "HDI rank",
+                "1": "HDI rank",
+                "2": "HDI rank"
+            },
+            "Indicator Value": {
+                "0": 1,
+                "1": 2,
+                "2": 3
+            },
+            "Reference": {
+                "0": NaN,
+                "1": NaN,
+                "2": NaN
+            },
+            "Reference Name": {
+                "0": "Reference 1",
+                "1": "Reference 1",
+                "2": "Reference 1"
+            }
+        },
+        "file": "working_ff168508-a458-4537-9e11-c1f7a3a854cf.xlsx",
+        "id": "working_ff168508-a458-4537-9e11-c1f7a3a854cf"
+    }
+}

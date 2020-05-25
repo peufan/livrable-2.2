@@ -1,0 +1,51 @@
+{
+    "created": "2020-05-25",
+    "description": "donn\u00e9es sur les principales crises et risques sanitaires mondiaux receuilli par ONUSIDA,OMS et LA Banque Mondiale",
+    "fields": [
+        {
+            "constraints": {
+                "required": true
+            },
+            "description": "Official country names.",
+            "name": "country_name",
+            "title": "Country Name",
+            "type": "string"
+        },
+        {
+            "description": "Human Development Index Category derived from the HDI Rank.",
+            "name": "hdi_category",
+            "title": "HDI Category",
+            "type": "string"
+        },
+        {
+            "description": "Indicator described in the data series.",
+            "name": "indicator_name",
+            "title": "Indicator Name",
+            "type": "string"
+        },
+        {
+            "description": "Reference to data source.",
+            "name": "reference",
+            "title": "Reference",
+            "type": "string"
+        },
+        {
+            "description": "Year of release.",
+            "name": "year",
+            "title": "Year",
+            "type": "year"
+        },
+        {
+            "constraints": {
+                "required": true
+            },
+            "description": "Value for the Year and Indicator Name.",
+            "name": "values",
+            "title": "Values",
+            "type": "number"
+        }
+    ],
+    "name": "hdr_2007-2008_table_09_shema",
+    "title": "Shema de HDR 2007-2008 Table 09",
+    "updated": "2020-05-25"
+}
